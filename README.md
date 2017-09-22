@@ -1,7 +1,8 @@
 # MySample
 
-This is a sample Chat application developed using Spring boot + Camel + Kafka
-This sample requires Kafka server be running.
+This is a sample Chat application developed using Spring boot + Camel + Kafka.
+
+This sample requires Kafka server to be running.
 
 <pre>
 Uses
