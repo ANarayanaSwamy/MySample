@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>My Chat Application</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" th:href="@{/css/main.css}"
+	href="../../css/main.css" />
+</head>
+<body>
+	<script src="myScript.js"></script>
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<h1>My chat application</h1>
+	<form action="#" method="POST" th:action="@{/startChat}" th:object="${userObject}">
+		<p><input type="text" th:field="*{userName}"></input></p>
+		<p><input type="submit" value="StartChat" /></p>
+	</form>
+</body>
+</html>
