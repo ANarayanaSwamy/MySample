@@ -3,10 +3,16 @@
 This is a sample Chat application developed using Spring boot + Camel + Kafka
 This sample requires Kafka server be running.
 
+<pre>
 Uses
-Spring Boot : For application startup (Uses web starter + thymeleaf)
+Spring Boot: For application startup (Uses web starter + thymeleaf)
 Kafka : To co-ordinate among multiple servers (For test purpose)
 Camel : To communicate with kafka
+</pre>
+
+<p align="center">
+<img src="Model.JPG" width="600px" >
+</p>
 
 #### Step 1:
 Configure the Kafka server details in application.properties
